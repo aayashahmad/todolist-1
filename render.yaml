@@ -1,7 +1,16 @@
 services:
   - type: web
-    name: todo-client
+    name: todo-api
     env: node
+    rootDir: todo-api
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    plan: free
+
+  - type: web
+    name: todo-client
+    env: static
+    rootDir: todo-client
     buildCommand: "npm install && npm run build"
-    startCommand: "npm run preview"
     staticPublishPath: dist
+    plan: free
