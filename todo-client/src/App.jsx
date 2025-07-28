@@ -71,13 +71,13 @@ export default function App() {
   <LightRays
     raysOrigin="top-center"
     raysColor="#00ffff"
-    raysSpeed={1.5}
-    lightSpread={0.8}
-    rayLength={1.2}
+    raysSpeed={1.9}
+    lightSpread={1.0}
+    rayLength={1.8}
     followMouse={true}
-    mouseInfluence={0.1}
+    mouseInfluence={0.4}
     noiseAmount={0.1}
-    distortion={0.05}
+    distortion={0.02}
     className="custom-rays"
   />
 </div>
