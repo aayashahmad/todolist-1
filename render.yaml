@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: todolist-1
+    name: todo-client
     env: node
     buildCommand: "npm install && npm run build"
-    startCommand: "npm start"
+    startCommand: "npm run preview"
+    staticPublishPath: dist
