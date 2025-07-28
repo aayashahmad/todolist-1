@@ -16,7 +16,6 @@ Task Master is a full-stack task management application built with **React.js**,
 ## Tech Stack
 - **Frontend:** React.js
 - **Backend:** Node.js, Express.js
-- **Database:** (Add your DB, e.g., MongoDB or MySQL)
 - **Styling:** CSS
 
 ## How to Use
@@ -30,4 +29,4 @@ Task Master is a full-stack task management application built with **React.js**,
 ### Backend
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/task-master.git
+  
